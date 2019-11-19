@@ -1,0 +1,6 @@
+library("gdata")
+mydata = read.xls("st_data.xls")
+print(nrow(mydata))
+print(ncol(mydata))
+print(mydata[46, ])
+print(mydata[, 3])
